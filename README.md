@@ -6,18 +6,18 @@ This repo is provide docker image for Ruby on Rails.
 
 - Dockerfile
 
-if you want to use other than ruby 2.5.1, modify Dockerfile FROM setting.
+if you want to use other than ruby 2.6.3, modify Dockerfile FROM setting.
 
 - Gemfile
 
-if you want to use other than Rails 5.2.1, modify Gemfile.
+if you want to use other than Rails 5.2.3, modify Gemfile.
 
 ## Create docker image
 
 ```
 git clone https://github.com/dozonot/rails-on-docker.git
 cd rails-on-docker
-docker image build -t rails:5.2.1 .
+docker image build -t rails:5.2.3 .
 ```
 
 enjoy!
